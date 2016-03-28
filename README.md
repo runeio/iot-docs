@@ -15,10 +15,12 @@
 
 * **firstboot.gz**. On initial boot and before NTP is configured, the device will post it's initial configuration
 * **fingerprint.gz**. Includes device hardware configuration as well as current OS snapshot (memory, cpu, swap, uptime, time)
-* **hids.gz**. Host IDS payload.
-* **fw.gz**. Firewall payload.
-* **proxy.gz**. Proxy payload.
-* **av.gz**. Antivirus payload.
+* **hids.gz**. Host IDS payload, e.g. Snort.
+* **fw.gz**. Firewall logs, .e.g. Netfilter or IPtables
+* **proxy.gz**. Proxy logs, e.g. Squid
+* **av.gz**. Antivirus logs, e.g. ClamAV
+* **dns.gz**. DNS cache proxy logs.
+* **flow.gz**. Network flow logs, e.g. Nmap
 
 ## MQTT Topics
 
