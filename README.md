@@ -51,6 +51,9 @@ The JSON document below is an example of a typical Rune shadow device:
                 "interval" : 300
             },
             "hids" : {
+                "signature" : "abc4567890",
+                "path" : "https://https://s3.amazonaws.com/rune-dev-hids/abc4567890/signature.gz",
+                "checksum" : "52b547664f9bf560852503a3abb1730",
                 "interval" : 60
             },
             "fw" : {
@@ -60,6 +63,15 @@ The JSON document below is an example of a typical Rune shadow device:
                 "interval" : 30
             },
             "av" : {
+                "signature" : "1234567890",
+                "path" : "https://https://s3.amazonaws.com/rune-dev-av/1234567890/signature.gz",
+                "checksum" : "96b547664f9bf560852503a3abb7279",
+                "interval" : 300
+            },
+            "dns" : {
+                "interval" : 300
+            },
+            "flow" : {
                 "interval" : 300
             }
         }
