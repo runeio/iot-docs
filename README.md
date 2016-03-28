@@ -1,8 +1,8 @@
 # Rune IOT Documentation
 
-## Uploads
+## Device Uploads
 
-### Paths
+### Upload Paths
  All uploads are posted to:
 
 | Environment | Path           |
