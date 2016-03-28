@@ -46,19 +46,19 @@ The JSON document below is an example of a typical Rune shadow device:
                 "checksum" : "76b547664f9bf560852503a3abb74173"
                 },
             "fingerprint" : {
-                interval" : 300
+                "interval" : 300
             },
             "hids" : {
-                interval" : 60
+                "interval" : 60
             },
             "fw" : {
-                interval" : 120
+                "interval" : 120
             },
             "proxy" : {
-                interval" : 30
+                "interval" : 30
             },
             "av" : {
-                interval" : 300
+                "interval" : 300
             }
         }
     }
