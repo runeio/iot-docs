@@ -5,9 +5,9 @@
 ### Paths
  All uploads are posted to:
 
- | Environment | Path     |
+ | Environment | Path |
  | :---------- | :------------- |
- | DEV | `https://s3.amazonaws.com/rune-upload-d37c4bd756fde5287fa52b12ba9b40c9/<thing-name>/<epochtime>/<upload-type>`      |
+ | DEV |  `https://s3.amazonaws.com/rune-upload-d37c4bd756fde5287fa52b12ba9b40c9/<thing-name>/<epochtime>/<upload-type>` |
  | STG | _ |
  | PRD | _ |
 
