@@ -50,6 +50,11 @@ The JSON document below is an example of a typical Rune shadow device:
             "fingerprint" : {
                 "interval" : 300
             },
+            "userconfig" : {
+                "configdate" : "1459198974",
+                "<TBD>" : "<TBD",
+                "interval" : 30    
+            },
             "hids" : {
                 "signature" : "abc4567890",
                 "path" : "https://https://s3.amazonaws.com/rune-dev-hids/abc4567890/signature.gz",
