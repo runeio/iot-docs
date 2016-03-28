@@ -41,7 +41,7 @@ The JSON document below is an example of a typical Rune shadow device:
     "state": {
         "desired": {
             "firmware": {
-                "version" : "20160328",
+                "builddate" : "20160328",
                 "path" : "https://https://s3.amazonaws.com/rune-dev-firmware/20160328/firmware.gz",
                 "checksum" : "76b547664f9bf560852503a3abb74173"
                 },
