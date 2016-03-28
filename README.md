@@ -1,13 +1,24 @@
 # Rune IOT Documentation
 
-## Upload Types
+## Uploads
+
+### Paths
+ All uploads are posted to:
+
+ | Environment | Path     |
+ | :---------- | :------------- |
+ | DEV | `https://s3.amazonaws.com/rune-upload-d37c4bd756fde5287fa52b12ba9b40c9/<thing-name>/<epochtime>/<upload-type>`      |
+ | STG | _ |
+ | PRD | _ |
+
+### Upload Types
 
 * **firstboot.gz**. On initial boot and before NTP is configured, the device will post it's initial configuration
 * **fingerprint.gz**. Includes device hardware configuration as well as current OS snapshot (memory, cpu, swap, uptime, time)
 * **hids.gz**. Host IDS payload.
 * **fw.gz**. Firewall payload.
 * **proxy.gz**. Proxy payload.
-* *av.gz**. Antivirus payload.
+* **av.gz**. Antivirus payload.
 
 ## MQTT Topics
 
