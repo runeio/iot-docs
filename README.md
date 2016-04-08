@@ -43,15 +43,15 @@ The JSON document below is an example of a typical Rune shadow device:
     "state": {
         "desired": {
             "firmware": {
-                "builddate" : "201603280153",
-                "path" : "https://https://s3.amazonaws.com/rune-dev-firmware/201603280153/firmware.gz",
+                "build" : "1460143724",
+                "path" : "https://https://s3.amazonaws.com/rune-dev-firmware/1460143724/firmware.gz",
                 "md5" : "76b547664f9bf560852503a3abb74173"
                 },
             "fingerprint" : {
                 "interval" : 300
             },
             "userconfig" : {
-                "configdate" : "1459198974",
+                "config" : "1459198974",
                 "<TBD>" : "<TBD",
                 "interval" : 30    
             },
