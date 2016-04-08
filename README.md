@@ -14,7 +14,8 @@
 ### Upload Types
 
 * **firstboot.gz**. On initial boot and before NTP is configured, the device will post it's initial configuration
-* **fingerprint.gz**. Includes device hardware configuration as well as current OS snapshot (memory, cpu, swap, uptime, time)
+* **devfinger.gz**. Includes device hardware configuration as well as current OS snapshot (memory, cpu, swap, uptime, time)
+* **netfinger.gz**. Includes network specific fingerprinting
 * **hids.gz**. Host IDS payload, e.g. Snort.
 * **fw.gz**. Firewall logs, .e.g. Netfilter or IPtables
 * **proxy.gz**. Proxy logs, e.g. Squid
@@ -47,7 +48,10 @@ The JSON document below is an example of a typical Rune shadow device:
                 "path" : "https://https://s3.amazonaws.com/rune-dev-firmware/1460143724/firmware.gz",
                 "md5" : "76b547664f9bf560852503a3abb74173"
                 },
-            "fingerprint" : {
+            "devfinger" : {
+                "interval" : 300
+            },
+            "netfinger" : {
                 "interval" : 300
             },
             "userconfig" : {
