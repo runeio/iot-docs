@@ -45,7 +45,7 @@ The JSON document below is an example of a typical Rune shadow device:
         "desired": {
             "firmware": {
                 "build" : "1460143724",
-                "path" : "https://s3.amazonaws.com/rune-dev-firmware/1460143724/firmware.gz",
+                "path" : "https://s3.amazonaws.com/rune-alpha-firmware/1460143724/firmware.gz",
                 "md5" : "76b547664f9bf560852503a3abb74173"
                 },
             "devfinger" : {
@@ -56,12 +56,12 @@ The JSON document below is an example of a typical Rune shadow device:
             },
             "userconfig" : {
                 "config" : "1459198974",
-                "<TBD>" : "<TBD",
+                "<TBD>" : "<TBD>",
                 "interval" : 30    
             },
             "hids" : {
                 "signature" : "abc4567890",
-                "path" : "https://s3.amazonaws.com/rune-dev-hids/abc4567890/signature.gz",
+                "path" : "https://s3.amazonaws.com/rune-alpha-hids/abc4567890/signature.gz",
                 "md5" : "52b547664f9bf560852503a3abb1730",
                 "interval" : 60
             },
@@ -73,7 +73,7 @@ The JSON document below is an example of a typical Rune shadow device:
             },
             "av" : {
                 "signature" : "1234567890",
-                "path" : "https://s3.amazonaws.com/rune-dev-av/1234567890/signature.gz",
+                "path" : "https://s3.amazonaws.com/rune-alpha-av/1234567890/signature.gz",
                 "md5" : "96b547664f9bf560852503a3abb7279",
                 "interval" : 300
             },
@@ -88,4 +88,4 @@ The JSON document below is an example of a typical Rune shadow device:
 }
 ```
 
-In the above example the latest firmware is published as 20160328 together with the path and checksum of the binary in order to verify and install it. Next there's a separate interval period set for each upload type. This model provides not only flexbility to control which uploads happen when but also to manage bandwidth consumed by the device to upload these various data types.
+In the above example the latest firmware is published as 20160328 together with the path and checksum of the binary in order to verify and install it. Next there's a separate interval period set for each upload type. This model provides not only flexibility to control which uploads happen when but also to manage bandwidth consumed by the device to upload these various data types.
