@@ -45,7 +45,7 @@ The JSON document below is an example of a typical Rune shadow device:
         "desired": {
             "firmware": {
                 "build" : "1460143724",
-                "path" : "https://https://s3.amazonaws.com/rune-dev-firmware/1460143724/firmware.gz",
+                "path" : "https://s3.amazonaws.com/rune-dev-firmware/1460143724/firmware.gz",
                 "md5" : "76b547664f9bf560852503a3abb74173"
                 },
             "devfinger" : {
@@ -61,7 +61,7 @@ The JSON document below is an example of a typical Rune shadow device:
             },
             "hids" : {
                 "signature" : "abc4567890",
-                "path" : "https://https://s3.amazonaws.com/rune-dev-hids/abc4567890/signature.gz",
+                "path" : "https://s3.amazonaws.com/rune-dev-hids/abc4567890/signature.gz",
                 "md5" : "52b547664f9bf560852503a3abb1730",
                 "interval" : 60
             },
@@ -73,7 +73,7 @@ The JSON document below is an example of a typical Rune shadow device:
             },
             "av" : {
                 "signature" : "1234567890",
-                "path" : "https://https://s3.amazonaws.com/rune-dev-av/1234567890/signature.gz",
+                "path" : "https://s3.amazonaws.com/rune-dev-av/1234567890/signature.gz",
                 "md5" : "96b547664f9bf560852503a3abb7279",
                 "interval" : 300
             },
